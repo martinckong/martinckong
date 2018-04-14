@@ -12,15 +12,15 @@ h1{
 	color: black;
 	font-size: 100px;
 	/*font-family: 'Merriweather Sans', sans-serif;*/
-	font-family: 'Lora', serif;
+	font-family: 'Merriweather', serif;
 	font-weight: 700;
 	font-style: italic;
 }
 
 p{
-	font-family: 'Lato', sans-serif;
-	font-weight: 700;
-	font-size: 25px;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
@@ -30,10 +30,8 @@ p{
 	height: 100%;
 	display: block;
 	position: fixed;
-	opacity: 0.60;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
-    -webkit-filter: grayscale(10%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(10%);
+	opacity: 0.80;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
 }
 
 #gparent{
@@ -42,21 +40,18 @@ p{
 	width: 100%;
 }
 
-#parent {
+#parent{
 	width: 80%;
 	margin: auto;
-	z-index: 3;
 }
 
-#child {
+#child{
 	text-align: center;
-	position: relative;
-	z-index: 2;
+	z-index: 1;
 	padding: 0%5%5%5%;
-	/*margin: auto;  /* Magic! */
 }
 
-#child2 {
+#child2{
 	background-color: white;
 	opacity: 0.40;
     filter: alpha(opacity=40); /* For IE8 and earlier */
@@ -65,7 +60,6 @@ p{
     position: absolute;
     right: 0;
     top: 0;
-    z-index: 1;
 }
 
 #icon{
